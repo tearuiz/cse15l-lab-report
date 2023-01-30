@@ -24,8 +24,8 @@ I already had VSC downloaded on my computer but the steps are listed below if ne
 
 ### Open Terminal in VScode
 * If in git bash, a $ should be visible 
-* I input the following command, using my CSE15L Account
- ![Image](ssh2.jpg)
+* I input the following command, using my CSE15L Account: 
+ `ssh cs15lwi23aay@ieng6.ucsd.edu`
 * If it is your first time accessing the server so you may get a message starting with " The authenticity of host 'ieng6.ucsd.edu'..." asking if you want to continue.
 * Type **yes**
 * The terminal asked for my password, I gave the password for my CSE15L account. ***NOTE***: It will not look like anything is typing but it is.
@@ -47,10 +47,10 @@ The remote computer resulted in:
 The ls command gives the list of files and directories and we see how these two computer above differ in what is stored.
 ### Other Commands
 I also used:
-* cd
-* cd ~
-* ls -a
-* cp /home/lineux/ieng6/cs15wi23/public/hello.txt ~/
+* `cd`: this command changes directory
+* `cd ~`: this command allows us to move between directories
+* `ls -a`: this command lists all files, including those hidden
+* `cp /home/lineux/ieng6/cs15wi23/public/hello.txt ~/` : this command copies files to a directory
 * and more
 ### Exiting Remote Server
 To log out of remote server I ran the command 'exit' and received a message saying the connection for ieng6.ucsd.edu was closed. 
